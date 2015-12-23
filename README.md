@@ -1,6 +1,7 @@
 # signico_c89
 
 
+
 ビルド
 -------------
 
@@ -14,7 +15,7 @@ pip install sphinx
 
 ```
 # latex関係のコマンドが入ってる環境で
-make latexpdfja
+make latexpdf
 open build/latex/signico_c89.pdf
 ```
 
@@ -25,3 +26,4 @@ make html
 python -m SimpleHTTPServer
 open http://localhost:8000/build/html/
 ```
+
